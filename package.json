@@ -1,0 +1,18 @@
+{
+  "name": "@vjose1903/instantclient-oracledb",
+  "version": "1.0.1",
+  "description": "A library that contains Oracle Instant Client drivers and provides functionality to initialize oracledb with the corresponding drivers. It allows using oracledb without the need to install it directly in other projects, as it is included in this library.",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "postinstall": "node ./src/utils/downloadFiles.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "axios": "^1.4.0",
+    "fs-extra": "^11.1.1",
+    "oracledb": "^6.0.0"
+  }
+}
