@@ -3,3 +3,4 @@ node_modules
 .prettierc
 src/utils/instantclient/**
 package-lock.json
+src/test.js

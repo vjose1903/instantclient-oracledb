@@ -6,4 +6,5 @@ declare module '@vjose1903/instantclient-oracledb' {
   }
 
   export const oracledb: typeof oracledb;
+  export type Connection = oracledb.Connection;
 }
